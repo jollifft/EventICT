@@ -12,7 +12,9 @@ namespace EventICT
 			Store = new DataStore ();
 			// The root page of your application
 			MainPage = new NavigationPage(new EventsPage()){
-				BarBackgroundColor = Color.Red
+				BarBackgroundColor = Color.FromHex("#F64747"),
+				BarTextColor = Color.White,
+				Title = "eventICT"
 			};
 		}
 
